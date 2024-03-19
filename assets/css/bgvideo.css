@@ -30,11 +30,28 @@
 
 	text-transform: uppercase;
 	z-index: 2;
+	opacity: .2;
+
+	text-align: center;
 }
 .video-h1 {
 	font-size: 7.5rem;
+}
 
-	opacity: .2;
+@media (max-width: 990px) {
+	.video-h1 {
+		font-size: 5.5rem;
+	}
+}
+@media (max-width: 767px) {
+	.video-h1 {
+		font-size: 3.5rem;
+	}
+}
+@media (max-width: 575px) {
+	.video-h1 {
+		font-size: 2.5rem;
+	}
 }
 
 .effect {
